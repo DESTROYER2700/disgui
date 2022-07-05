@@ -1,6 +1,4 @@
-# creator: SeaGull aka : DESTROYER2700#6478
-from email import message
-from multiprocessing import AuthenticationError
+# creator: SeaGull aka : DESTROYER2700#6478[]
 import PySimpleGUI as sg
 import time
 import requests 
@@ -13,7 +11,7 @@ layout = [
             [sg.Button('spam'), ] ]
 
 
-window = sg.Window('Window Title', layout)
+window = sg.Window('SS client', layout)
 
 while True:
     event, values = window.read()
